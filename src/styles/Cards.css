@@ -1,0 +1,78 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  margin: 0px;
+  padding: 0px;
+}
+.productscontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+}
+.buttonsinfoo {
+  display: flex;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  margin: 10px;
+}
+.inputs {
+  width: 90%;
+  margin: 10px;
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 10px;
+}
+
+.buttonss {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.map {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  height: 87%;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+.productmaincontainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 100%;
+}
+.smallcontainer {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 30px 1px;
+  justify-content: center;
+  height: 50vh;
+}
+.productsCard {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  width: 30%;
+  height: 12rem;
+  padding: 20px;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.searchCard {
+  height: 100%;
+  padding: 20px 20px;
+}
